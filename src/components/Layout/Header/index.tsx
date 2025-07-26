@@ -149,6 +149,17 @@ const Header: React.FC = () => {
               </div>
             )}
             <button
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              className="hidden md:block p-2 rounded-lg text-black dark:text-white"
+              aria-label="Toggle theme"
+            >
+              {theme === 'dark' ? (
+                <Icon icon="solar:sun-bold" className="text-2xl" />
+              ) : (
+                <Icon icon="solar:moon-bold" className="text-2xl" />
+              )}
+            </button>
+            <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className="block lg:hidden p-2 rounded-lg"
               aria-label="Toggle mobile menu"

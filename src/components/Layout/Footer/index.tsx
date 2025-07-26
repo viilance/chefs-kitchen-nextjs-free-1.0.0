@@ -11,11 +11,7 @@ const Footer: FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-5 lg:gap-20 md:gap-6 sm:gap-12 gap-6  pb-16">
           <div className="col-span-2">
             <Logo />
-            <p className="text-xs font-medium text-grey dark:text-white/50 mt-5 mb-16 max-w-70%">
-              Open an account in minutes, get full financial
-              control for much longer.
-            </p>
-            <div className="flex gap-6 items-center">
+            <div className="flex gap-6 items-center mt-10">
               <Link href="#" className="group bg-white hover:bg-primary rounded-full shadow-xl p-3">
                 <Icon
                   icon="fa6-brands:facebook-f"

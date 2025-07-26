@@ -4,22 +4,22 @@ export const FeaturesData: {
   subheading: string;
 }[] = [
     {
-      imgSrc: '/images/features/featureOne.svg',
+      imgSrc: '/images/Features/featureOne.svg',
       heading: "Menu variations",
       subheading: "Sed ut perspiciatis unde omnis iste natus error",
     },
     {
-      imgSrc: '/images/features/featureTwo.svg',
+      imgSrc: '/images/Features/featureTwo.svg',
       heading: "Cooking warw",
       subheading: "Sed ut perspiciatis unde omnis iste natus error",
     },
     {
-      imgSrc: '/images/features/featureThree.svg',
+      imgSrc: '/images/Features/featureThree.svg',
       heading: "Best chef",
       subheading: "Sed ut perspiciatis unde omnis iste natus error",
     },
     {
-      imgSrc: '/images/features/featureFour.svg',
+      imgSrc: '/images/Features/featureFour.svg',
       heading: "Fast food",
       subheading: "Sed ut perspiciatis unde omnis iste natus error",
     }
@@ -33,33 +33,18 @@ export const ExpertData: {
 }[] = [
     {
       profession: 'Senior Chef',
-      name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boyone.svg',
+      name: 'Teddy',
+      imgSrc: '/images/Expert/yorkie_chef_profile.png',
     },
     {
       profession: 'Junior Chef',
-      name: 'Shoo Thar Mien',
+      name: 'Luna',
       imgSrc: '/images/Expert/girl.png',
     },
     {
-      profession: 'Junior Chef',
-      name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boytwo.svg',
-    },
-    {
-      profession: 'Junior Chef',
-      name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/girl.png',
-    },
-    {
-      profession: 'Senior Chef',
-      name: 'Shoo Thar Mien',
+      profession: 'Sous Chef',
+      name: 'Max',
       imgSrc: '/images/Expert/boyone.svg',
-    },
-    {
-      profession: 'Junior Chef',
-      name: 'Shoo Thar Mien',
-      imgSrc: '/images/Expert/boytwo.svg',
     },
   ]
 

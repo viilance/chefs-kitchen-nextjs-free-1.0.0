@@ -1,24 +1,24 @@
 import React from "react";
 import Hero from "@/components/Home/Hero";
-import Features from "@/components/Home/Features";
-import Cook from "@/components/Home/Cook";
+// import Features from "@/components/Home/Features";
+// import Cook from "@/components/Home/Cook";
 import Expert from "@/components/Home/Expert";
 import Gallery from "@/components/Home/Gallery";
-import Newsletter from "@/components/Home/Newsletter";
+// import Newsletter from "@/components/Home/Newsletter";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Kitchen",
+  title: "Kasika i šapa",
 };
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Features />
-      <Cook />
-      <Expert />
+      {/* <Features /> */}
+      {/* <Cook /> */}
       <Gallery />
-      <Newsletter />
+      <Expert />
+      {/* <Newsletter /> */}
     </main>
   );
 }

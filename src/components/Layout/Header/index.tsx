@@ -83,14 +83,14 @@ const Header: React.FC = () => {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-lg font-medium hover:text-primary">
+            <Link href="#" className="hidden md:flex text-lg font-medium hover:text-primary">
               <Icon
                 icon="solar:phone-bold"
                 className="text-primary text-3xl inline-block me-2"
               />
               +1(909) 235-9814
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="hidden lg:block text-primary bg-primary/15 hover:text-white hover:bg-primary font-medium text-lg py-4 px-8 rounded-full"
               onClick={() => {
@@ -98,7 +98,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign In
-            </Link>
+            </Link> */}
             {isSignInOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div
@@ -119,7 +119,7 @@ const Header: React.FC = () => {
                 </div>
               </div>
             )}
-            <Link
+            {/* <Link
               href="#"
               className="hidden lg:block bg-primary text-white hover:bg-primary/15 hover:text-primary font-medium text-lg py-4 px-8 rounded-full "
               onClick={() => {
@@ -127,7 +127,7 @@ const Header: React.FC = () => {
               }}
             >
               Sign Up
-            </Link>
+            </Link> */}
             {isSignUpOpen && (
               <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center z-50">
                 <div
@@ -164,7 +164,7 @@ const Header: React.FC = () => {
         )}
         <div
           ref={mobileMenuRef}
-          className={`lg:hidden fixed top-0 right-0 h-full w-full bg-darkmode shadow-lg transform transition-transform duration-300 max-w-xs ${navbarOpen ? "translate-x-0" : "translate-x-full"
+          className={`lg:hidden fixed top-0 right-0 h-full w-80 bg-darkmode shadow-lg transform transition-transform duration-300 ${navbarOpen ? "translate-x-0" : "translate-x-full"
             } z-50`}
         >
           <div className="flex items-center justify-between p-4">
@@ -183,7 +183,7 @@ const Header: React.FC = () => {
             {headerData.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
-            <div className="mt-4 flex flex-col space-y-4 w-full">
+            {/* <div className="mt-4 flex flex-col space-y-4 w-full">
               <Link
                 href="#"
                 className="bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white"
@@ -204,7 +204,7 @@ const Header: React.FC = () => {
               >
                 Sign Up
               </Link>
-            </div>
+            </div> */}
           </nav>
         </div>
       </div>
